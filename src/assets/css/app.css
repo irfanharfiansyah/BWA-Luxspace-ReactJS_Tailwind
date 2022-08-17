@@ -4,7 +4,15 @@
 @tailwind utilities;
 
 /* utils */
-
+@layer components {
+  .card {
+    background-color: theme('colors.black');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+  /* ... */
+}
 .grid {
   grid-auto-flow: row dense;
   grid-auto-rows: minmax(180px, auto);
