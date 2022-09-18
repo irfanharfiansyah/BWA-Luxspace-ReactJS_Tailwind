@@ -5,7 +5,6 @@ import Header from "parts/Header";
 import Breadcrumb from "components/Breadcrumb";
 import ProductDetails from "parts/Details/ProductDetails";
 import Suggestion from "parts/Details/Suggestion";
-import Clients from "parts/Clients";
 import SiteMap from "parts/HomePage/SiteMap";
 import Foooter from "parts/Foooter";
 
@@ -22,7 +21,6 @@ export default function Details() {
 			></Breadcrumb>
 			<ProductDetails></ProductDetails>
 			<Suggestion></Suggestion>
-			<Clients></Clients>
 			<SiteMap></SiteMap>
 			<Foooter></Foooter>
 		</>
