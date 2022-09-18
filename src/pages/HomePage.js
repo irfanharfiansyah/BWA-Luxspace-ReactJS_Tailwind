@@ -7,10 +7,10 @@ import Clients from "parts/Clients";
 import SiteMap from "parts/HomePage/SiteMap";
 import Foooter from "parts/Foooter";
 
-export default function HomePage(props) {
+export default function HomePage() {
 	return (
 		<>
-			<Header></Header>
+			<Header theme="white" position="absolute"></Header>
 			<Hero></Hero>
 			<BrowseRoom></BrowseRoom>
 			<JustArrived></JustArrived>
